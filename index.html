@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitality Process Digitalization</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hospitality Process Digitalization</h1>
+        <form id="uploadForm">
+            <input type="file" id="groupFile" accept=".csv" required>
+            <label for="groupFile">Upload Group Information CSV</label>
+            
+            <input type="file" id="hostelFile" accept=".csv" required>
+            <label for="hostelFile">Upload Hostel Information CSV</label>
+            
+            <button type="submit">Process Files</button>
+        </form>
+        <div id="results"></div>
+        <div class="download-options" id="downloadOptions" style="display:none;">
+            <button id="downloadAllocatedBtn" style="display:none;">Download Allocated Members CSV</button>
+            <button id="downloadUnallocatedBtn" style="display:none;">Download Unallocated Members CSV</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
