@@ -1,4 +1,5 @@
 Hospitality Process Digitalization
+
 The Hospitality Process Digitalization project aims to simplify and optimize the room allocation process for group accommodations in hostels. This web application allows users to upload CSV files containing group information and hostel details, and then automates the room allocation based on specified criteria.
 
 Key Features
